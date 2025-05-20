@@ -44,6 +44,9 @@ a:hover{
 }
 body{
     background-color: #021526;
+    margin:0;
+    height: 100vh;
+    position: relative;
 }
 #content{
     color: black;
@@ -63,3 +66,42 @@ body{
     list-style-position: inside;
     padding-left: 20px;
 }
+hr{
+    width: 600px;
+    border: 7px solid blueviolet;
+    
+    transform: rotate(90deg);
+
+    position: relative;
+    margin-left: 33%;
+    margin-top: -290px;
+
+}
+.Skills{
+    margin-left: 57%;
+    background-color:#f1faee ;
+    line-height: 1.5;
+    border-radius: 1rem;
+    padding: 25px;
+    font-size: 25px;
+    text-align: justify;
+    margin-top: -240px;
+    width: 300px;
+    font-family: "Poppins";
+    font-style: italic;
+}
+.Tools{
+    margin-left: 75%;
+    background-color:#f1faee ;
+    line-height: 1.5;
+    border-radius: 1rem;
+    padding: 25px;
+    font-size: 17px;
+    text-align: justify;
+    margin-top: 40px;
+    width: 300px;
+    font-family: "Poppins";
+    font-style: italic;
+}
+
+
