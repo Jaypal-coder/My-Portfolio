@@ -16,9 +16,7 @@ a{
     color: white;
 }
 a:hover{
-    transform: scale(1.05);
-  box-shadow: 0 0 20px #8a2be2;
-  transition: 0.3s ease;
+    color: rgb(139, 139, 208);
 
 }
 body{
@@ -56,5 +54,10 @@ p{
     border-radius: 1rem;
     color:black;
     padding: 7px;
-    font-size: 25px;
+    font-size: 20px;
+}
+#btn:hover{
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #8a2be2;
+  transition: 0.3s ease;
 }
